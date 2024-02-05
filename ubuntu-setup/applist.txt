@@ -1,5 +1,4 @@
 zsh
 micro
 stow
-tmux
 nala
