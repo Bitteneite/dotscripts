@@ -3,3 +3,4 @@ micro
 stow
 nala
 neofetch
+cmatrix
