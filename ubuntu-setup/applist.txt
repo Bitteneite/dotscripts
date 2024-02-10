@@ -1,11 +1,11 @@
 zsh
 stow
-nala
 tldr
-ripgrep
-bat
-entr
 neofetch
 cmatrix
 micro
 vifm
+nala
+ripgrep
+bat
+entr
