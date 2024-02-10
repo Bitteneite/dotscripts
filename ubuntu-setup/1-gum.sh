@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Update and install necessary stuff
+sudo apt update && sudo apt install curl gpg wget
 
 # Debian/Ubuntu Installation for Charm Gum
 sudo mkdir -p /etc/apt/keyrings
