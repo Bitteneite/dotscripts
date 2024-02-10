@@ -1,6 +1,11 @@
 zsh
-micro
 stow
 nala
+tldr
+ripgrep
+bat
+entr
 neofetch
 cmatrix
+micro
+vifm
