@@ -1,6 +1,9 @@
 #!/bin/sh
 
-# Install oh-my-zsh ----------------
+allow_exec(){
+	chmod +x $HOME/dotscripts/install-scripts/*.sh
+}
+
 get_list(){
 	ls ~/dotscripts/install-scripts > "temp.txt"
 }
@@ -31,6 +34,7 @@ execute_scripts() {
 	done < "$file_list"
 }
 
+allow_exec
 get_list
 choose_packages
 execute_scripts "temp_install.txt"
