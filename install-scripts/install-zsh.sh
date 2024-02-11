@@ -38,10 +38,10 @@ zshrcinstall(){
 }
 
 sudo apt install -y zsh
-chsh -s $(which zsh)
 ohmyzsh
 zshautosuggestions
 zshsyntaxhighlighting
 zshyoushoulduse
 Powerlevel10k
 zshrcinstall
+chsh -s $(which zsh)
