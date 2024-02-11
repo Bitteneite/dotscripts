@@ -2,7 +2,6 @@
 
 install() {
 	sudo apt install kitty
-	cd ..
 	stow kitty -d ~/dotfiles
 	sudo update-alternatives --config x-terminal-emulator
 }
