@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Update and install necessary stuff
-sudo apt update && sudo apt install curl gpg wget
+sudo apt update && sudo apt install -y curl gpg wget
 
 # Debian/Ubuntu Installation for Charm Gum
 sudo mkdir -p /etc/apt/keyrings
@@ -10,5 +10,4 @@ echo "deb [signed-by=/etc/apt/keyrings/charm.gpg] https://repo.charm.sh/apt/ * *
 sudo apt update && sudo apt install gum -y
 
 sh ./2-install.sh
-sh ./3-setup.sh
-sh ./4-extras.sh
+sh ./3-extras.sh
