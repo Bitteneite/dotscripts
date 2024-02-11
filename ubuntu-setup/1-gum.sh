@@ -11,4 +11,4 @@ sudo apt update && sudo apt install gum -y
 
 sh ./2-install.sh
 sh ./3-setup.sh
-cd ~/dotscripts/install-scripts
+sh ./4-extras.sh
