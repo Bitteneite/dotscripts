@@ -24,14 +24,5 @@ if [ -s "temp.txt" ]; then
 fi
 
 
-# Installing fonts -----------------
-install_font() {
-	stow fonts -d ~/dotfiles
-	echo "MesloLGS NF successfully installed into ~/.fonts"
-	echo "Please change your terminal's font to MesloLGS, size 14-16."
-}
-#Prompt
-gum confirm "Do you wish to install MesloLGS NF?" && install_font || echo "Script Complete!"
-
 
 

@@ -7,5 +7,4 @@ install() {
   sudo make O_NERD=1 strip install
 }
 
-#Prompt
-gum confirm "Do you wish to install nnn?" && install
+install

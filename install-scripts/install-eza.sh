@@ -9,5 +9,4 @@ install() {
 	sudo apt install -y eza
 }
 
-#Prompt
-gum confirm "Do you wish to install eza?" && install
+install

@@ -6,5 +6,4 @@ install() {
 	sudo update-alternatives --config x-terminal-emulator
 }
 
-#Prompt
-gum confirm "Do you wish to install Kitty?" && install
+install

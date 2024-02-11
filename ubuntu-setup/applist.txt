@@ -1,10 +1,7 @@
-zsh
 stow
 tldr
-neofetch
 cmatrix
 micro
-vifm
 nala
 ripgrep
 bat

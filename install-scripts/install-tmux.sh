@@ -6,5 +6,4 @@ install() {
 	stow tmux -d ~/dotfiles
 }
 
-#Prompt
-gum confirm "Do you wish to install tmux?" && install
+install
