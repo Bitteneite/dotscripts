@@ -34,3 +34,4 @@ execute_scripts() {
 get_list
 choose_packages
 execute_scripts "temp_install.txt"
+rm temp.txt temp_install.txt
