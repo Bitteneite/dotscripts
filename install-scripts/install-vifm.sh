@@ -1,7 +1,7 @@
 #!/bin/sh
 
 install() {
-	sudo apt install -y vifm
+	sudo nala install -y vifm
 	stow vifm -d ~/dotfiles
 }
 

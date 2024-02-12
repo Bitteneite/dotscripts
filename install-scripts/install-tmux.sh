@@ -1,7 +1,7 @@
 #!/bin/sh
 
 install() {
-	sudo apt install tmux -y
+	sudo nala install tmux -y
 	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 	stow tmux -d ~/dotfiles
 }

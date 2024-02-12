@@ -1,7 +1,7 @@
 #!/bin/sh
 
 install() {
-	sudo apt install -y neofetch
+	sudo nala install -y neofetch
 	stow neofetch -d ~/dotfiles
 }
 

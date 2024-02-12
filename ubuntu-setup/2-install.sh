@@ -14,7 +14,7 @@ choose_packages() {
 }
 install_packages() {
 	sudo -v # Check sudo password
-	xargs sudo apt install -y < temp.txt # Install all from applist.txt
+	xargs sudo nala install -y < temp.txt # Install all from applist.txt
 	rm temp.txt
 }
 #Prompt

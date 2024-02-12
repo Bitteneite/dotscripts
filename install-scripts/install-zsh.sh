@@ -37,7 +37,8 @@ zshrcinstall(){
 	git restore .
 }
 
-sudo apt install -y zsh
+
+sudo nala install -y zsh
 ohmyzsh
 zshautosuggestions
 zshsyntaxhighlighting

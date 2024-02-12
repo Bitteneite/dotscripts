@@ -1,7 +1,7 @@
 #!/bin/sh
 
 install() {
-	sudo apt install -y vim
+	sudo nala install -y vim
 	stow vim -d ~/dotfiles
 }
 
