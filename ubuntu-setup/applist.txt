@@ -2,7 +2,6 @@ stow
 tldr
 cmatrix
 micro
-nala
 ripgrep
 bat
 entr
