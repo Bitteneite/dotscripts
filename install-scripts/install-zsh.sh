@@ -38,6 +38,13 @@ zshrcinstall(){
 }
 
 
+# Install Neovim as default --------
+extra_neovim(){
+	sudo nala install -y neovim
+	stow neovim -d ~/dotfiles
+}
+
+
 sudo nala install -y zsh
 ohmyzsh
 zshautosuggestions
@@ -45,3 +52,4 @@ zshsyntaxhighlighting
 zshyoushoulduse
 Powerlevel10k
 zshrcinstall
+extra_neovim
