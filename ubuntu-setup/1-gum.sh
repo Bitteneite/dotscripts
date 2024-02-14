@@ -11,3 +11,4 @@ sudo nala update && sudo nala install gum -y
 
 sh ./2-install.sh
 sh ./3-extras.sh
+chsh -s $(which zsh)

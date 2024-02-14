@@ -17,12 +17,13 @@ install_packages() {
 	xargs sudo nala install -y < temp.txt # Install all from applist.txt
 	rm temp.txt
 }
+
+#Create a .config folder
+mkdir ~/.config
+
 #Prompt
 choose_packages
 if [ -s "temp.txt" ]; then
 	install_packages
 fi
-
-
-
 
